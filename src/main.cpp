@@ -159,6 +159,8 @@ else
         digitalWrite(inb, LOW);
     }
 /*
+So I'm adding these couple of lines
+here to check the git commits and all that jazz
 digitalWrite(ina, HIGH);
 digitalWrite(inb, LOW);
 rc_throttle_mapval = map(rc_throttle_inval, 1420, 1920, 0, 255);
@@ -181,7 +183,7 @@ Serial.print(rc_button_inval);
 Serial.print(" motor fwd: ");
 Serial.print(motors_forward);
 Serial.print(" motor rev: ");
-Serial.print(motors_reverse);
+Serial.print(motors_reverse);\
 Serial.print(" motor stop: ");
 Serial.println(motors_stop);
 
