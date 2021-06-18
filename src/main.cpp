@@ -159,8 +159,6 @@ else
         digitalWrite(inb, LOW);
     }
 /*
-So I'm adding these couple of lines
-here to check the git commits and all that jazz
 digitalWrite(ina, HIGH);
 digitalWrite(inb, LOW);
 rc_throttle_mapval = map(rc_throttle_inval, 1420, 1920, 0, 255);
